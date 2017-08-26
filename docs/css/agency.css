@@ -15,6 +15,14 @@ a {
   a.active, a:active, a:focus, a:hover {
     color: #9ACCF2; }
 
+#logo {
+  width: 200px;
+  height: 20px;
+  background-image: url("../img/logos/2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 h1,
 h2,
 h3,
@@ -74,7 +82,7 @@ body {
     text-transform: uppercase; }
   #mainNav .navbar-brand {
     color: #7BAAF0;
-    font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive; }
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
     #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
       color: #9ACCF2; }
   #mainNav .navbar-nav .nav-item .nav-link {
@@ -145,16 +153,16 @@ header.masthead {
     padding-top: 300px;
     padding-bottom: 200px; }
     header.masthead .intro-text .intro-lead-in {
-      font-size: 40px;
-      font-style: italic;
+      font-size: 28px;
+      font-style: normal;
       line-height: 40px;
-      margin-bottom: 25px;
+      margin-bottom: 45px;
       font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
     header.masthead .intro-text .intro-heading {
       font-size: 75px;
       font-weight: 700;
       line-height: 75px;
-      margin-bottom: 50px;
+      margin-bottom: 20px;
       font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
       text-transform: uppercase; } }
 
@@ -525,7 +533,7 @@ ul.social-buttons {
   text-transform: uppercase; }
   .btn-primary.focus, .btn-primary:focus {
     color: white;
-    border-color: #b48b01;
+    border-color: #9ACCF2;
     background-color: #7BAAF0; }
   .btn-primary:hover {
     color: white;
@@ -568,7 +576,7 @@ ul.social-buttons {
   text-transform: uppercase; }
   .btn-xl.focus, .btn-xl:focus {
     color: white;
-    border-color: #b48b01;
+    border-color: #9ACCF2;
     background-color: #7BAAF0; }
   .btn-xl:hover {
     color: white;
@@ -584,8 +592,8 @@ ul.social-buttons {
     .open > .btn-xl.dropdown-toggle:focus,
     .open > .btn-xl.dropdown-toggle:hover {
       color: white;
-      border-color: #b48b01;
-      background-color: #dcab01; }
+      border-color: #6493f2;
+      background-color: #6493f2; }
   .btn-xl.active, .btn-xl:active,
   .open > .btn-xl.dropdown-toggle {
     background-image: none; }
