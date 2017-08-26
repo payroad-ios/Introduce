@@ -16,8 +16,8 @@ a {
     color: #9ACCF2; }
 
 #logo {
-  width: 200px;
-  height: 20px;
+  width: 220px;
+  height: 30px;
   background-image: url("../img/logos/2.png");
   background-size: contain;
   background-repeat: no-repeat;
@@ -69,7 +69,7 @@ body {
   -webkit-tap-highlight-color: #7BAAF0; }
 
 #mainNav {
-  background-color: #222222; }
+  background-color: #3a3a3a; }
   #mainNav .navbar-toggler {
     font-size: 12px;
     right: 0;
@@ -104,7 +104,7 @@ body {
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
-    background-color: transparent; }
+    background-color: #3a3a3a; }
     #mainNav .navbar-brand {
       font-size: 1.75em;
       -webkit-transition: all 0.3s;
@@ -115,14 +115,14 @@ body {
     #mainNav.navbar-shrink {
       padding-top: 0;
       padding-bottom: 0;
-      background-color: #222222; }
+      background-color: #3a3a3a; }
       #mainNav.navbar-shrink .navbar-brand {
         font-size: 1.25em;
         padding: 12px 0; } }
 
 header.masthead {
   text-align: center;
-  color: white;
+  color: #3a3a3a;
   background-image: url("../img/header-bg.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
