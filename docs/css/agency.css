@@ -215,9 +215,9 @@ header.masthead {
       text-transform: none; }
     #portfolio .portfolio-item .portfolio-caption p {
       font-size: 16px;
-      font-style: italic;
       margin: 0;
-      font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+      margin-top: 20px;
+            font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
 #portfolio * {
   z-index: 2; }
@@ -225,6 +225,10 @@ header.masthead {
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
     margin: 0 0 30px; } }
+
+.img-fluid {
+  margin-bottom: 6px;
+}
 
 .portfolio-modal .modal-dialog {
   max-width: none;
@@ -520,6 +524,11 @@ ul.social-buttons {
     background-color: #222222; }
     ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
       background-color: #7BAAF0; }
+
+.text-content {
+  text-align: justify;
+  color: #868e96!important;
+}
 
 .text-primary {
   color: #7BAAF0 !important; }
