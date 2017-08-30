@@ -330,6 +330,7 @@ p.bannerDescription{
     font-size: 2.0rem;
     margin-bottom: 30px;
     line-height: 34px;  
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 
 }
 
