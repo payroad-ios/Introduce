@@ -133,14 +133,14 @@ section:nth-of-type(odd) {
 }
 
 .btn {
-    border: 2px solid #fff;
+    border: 2px solid black;
     border-radius: 50px;
     display: inline-block;
     min-width: 214px;
     padding: .75em;
     height: 50px;
     text-align: center;
-    color: #fff;
+    color: black;
     font-style: normal;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -252,7 +252,7 @@ p.description {
     font-weight: 500;
     width: 
     line-height: 22px;
-    color: #fff;
+    color: black;
     border-bottom: 3px solid transparent;
     text-transform:uppercase;
 } 
@@ -286,7 +286,7 @@ p.description {
 /* bennar Section CSS */
 .header-image{
     padding-top:120px;
-    padding-bottom: 60px;
+    padding-bottom: 160px;
 }
 #bennar{
     position:relative;
@@ -326,8 +326,8 @@ p.description {
     color:#fff;
 }
 p.bannerDescription{
-    color: #fff;
-    font-size: 1.8rem;
+    color: #black;
+    font-size: 2.0rem;
     margin-bottom: 30px;
     line-height: 34px;  
 
